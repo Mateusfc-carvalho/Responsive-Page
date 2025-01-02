@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to left, #0d2938, #0a3d64, #0e65a8);
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+}
+
+#imagemDeCadastro{
+    width: 150px;
+    height: 110px;
+    margin-left: -11px;
+}
+
+.Titulo{
+  font-family:"Lora", serif;
+  font-size: 34px;
+}
+
+.section_formulario{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #6a27c2e8, #0e8fb7e8, #398bf6ed);
+    padding: 10px 20px;
+}
+
+.secao-form{
+   width: 100%;
+   display: flex; 
+   flex-direction: column;
+}
+
+.titulo-2{
+    display: flex;
+}
+
+.imagem-login{
+    width: 100px;
+    height: 100px;
+}
+
+label{
+ font-family:"Lora";
+ color: white;
+ font-weight: bolder;
+ font-size: 15px;
+}
+.secao_submit_delete{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 0 10px;
+}
+
+.submit{
+    width: 500px;
+    height: 40px;
+    font-weight: bolder;
+    background: linear-gradient(to left, rgb(10, 141, 25), rgb(58, 196, 58), rgb(128, 227, 58) );
+}
+.delete{
+    width: 500px;
+    height: 40px;
+    font-weight: bolder;
+    background: linear-gradient(to left, rgb(155, 34, 34), rgb(142, 9, 9), rgb(148, 6, 6)); 
+}
+.submit:hover, .delete:hover{
+  box-shadow: 7px 9px 30px rgba(255, 251, 251, 0.662);
+}
+@media (max-width: 300px){
+    .delete{
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
